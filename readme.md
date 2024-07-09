@@ -3,6 +3,10 @@
 ## **Overview**
 This project demonstrates how to benchmark GPU performance using a simple image classification task with a neural network in TensorFlow 2.0. The notebook covers data loading, pre-processing, model building, training, and prediction, emphasizing the speed difference between CPU and GPU training. It includes a practical exercise to explore the impact of hidden layers on performance.
 
+# **Kindly note**
+The Cuda setup is a long process and it is mandated to complete the tutorial from the following link before running the project:
+https://shawnhymel.com/1961/how-to-install-tensorflow-with-gpu-support-on-windows/
+
 ## **Project Highlights**
 
 - **Compare CPU vs. GPU Training:**  
@@ -28,31 +32,24 @@ This project demonstrates how to benchmark GPU performance using a simple image 
 - TensorFlow 2.0
 - Jupyter Notebook
 
-### **Installation**
+### **Usage**
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/parmarsunny125/IMAGE_CLASSIFICATION.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd your-repo-name
+    cd IMAGE_CLASSIFICATION.git
     ```
 
-3. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-### **Usage**
-
-1. Open the Jupyter Notebook:
+3. Open the Jupyter Notebook:
     ```bash
     jupyter notebook IMAGE_CLASSIFICATION.ipynb
     ```
 
-2. Run the cells to benchmark CPU vs. GPU performance and explore the impact of hidden layers on performance.
+4. Run the cells to benchmark CPU vs. GPU performance and explore the impact of hidden layers on performance.
 
 ## **Contributing**
 
